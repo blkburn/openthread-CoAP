@@ -1,0 +1,144 @@
+digraph Model
+{
+    graph[rankdir=LR]
+
+    // mod.$name=/ti/common/multi_stack_validate
+
+    // mod.$name=/ti/devices/CCFG
+    ti_devices_CCFG -> ti_devices_CCFGTemplate0
+
+    // mod.$name=/ti/devices/CCFGTemplate
+
+    // mod.$name=/ti/devices/DriverLib
+
+    // mod.$name=/ti/devices/radioconfig/code_export_param
+
+    // mod.$name=/ti/devices/radioconfig/rfdesign
+
+    // mod.$name=/ti/devices/radioconfig/settings/ieee_15_4
+    ti_devices_radioconfig_settings_ieee_15_40 -> ti_drivers_RF
+    ti_devices_radioconfig_settings_ieee_15_40 -> ti_devices_radioconfig_rfdesign
+    ti_devices_radioconfig_settings_ieee_15_40 -> ti_devices_radioconfig_code_export_param0
+
+    // mod.$name=/ti/display/Display
+    CONFIG_DISPLAY -> ti_drivers_Board
+    CONFIG_DISPLAY -> CONFIG_DISPLAY_UART
+
+    // mod.$name=/ti/dpl/Settings
+
+    // mod.$name=/ti/drivers/ADC
+    CONFIG_ADC_0 -> ti_drivers_Power
+    CONFIG_ADC_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/AESCCM
+    CONFIG_AESCCM_0 -> ti_drivers_DMA
+    CONFIG_AESCCM_0 -> ti_drivers_Power
+    CONFIG_AESCCM_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/AESECB
+    CONFIG_AESECB_0 -> ti_drivers_DMA
+    CONFIG_AESECB_0 -> ti_drivers_Power
+    CONFIG_AESECB_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/Board
+    ti_drivers_Board -> ti_devices_DriverLib
+    ti_drivers_Board -> ti_dpl_Settings
+
+    // mod.$name=/ti/drivers/DMA
+    ti_drivers_DMA -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/ECDH
+    CONFIG_ECDH_0 -> ti_drivers_Power
+    CONFIG_ECDH_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/ECDSA
+    CONFIG_ECDSA_0 -> ti_drivers_Power
+    CONFIG_ECDSA_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/ECJPAKE
+    CONFIG_ECJPAKE_0 -> ti_drivers_Power
+    CONFIG_ECJPAKE_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/GPIO
+    ti_drivers_GPIO -> ti_drivers_Power
+    ti_drivers_GPIO -> ti_drivers_Board
+    CONFIG_GPIO_BTN1 -> CONFIG_PIN_BTN1
+    CONFIG_GPIO_BTN2 -> CONFIG_PIN_BTN2
+    CONFIG_GPIO_RLED -> CONFIG_PIN_RLED
+    CONFIG_GPIO_GLED -> CONFIG_PIN_GLED
+
+    // mod.$name=/ti/drivers/NVS
+    CONFIG_NVSINTERNAL -> ti_drivers_Board
+    CONFIG_NVSINTERNAL -> ti_drivers_nvs_NVSCC26XX0
+
+    // mod.$name=/ti/drivers/PIN
+    ti_drivers_PIN -> ti_drivers_Power
+    ti_drivers_PIN -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/Power
+    ti_drivers_Power -> ti_devices_CCFG
+    ti_drivers_Power -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/RF
+    ti_drivers_RF -> ti_drivers_Power
+    ti_drivers_RF -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/SHA2
+    CONFIG_SHA2_0 -> ti_drivers_DMA
+    CONFIG_SHA2_0 -> ti_drivers_Power
+    CONFIG_SHA2_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/TRNG
+    CONFIG_TRNG_0 -> ti_drivers_Power
+    CONFIG_TRNG_0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/UART
+    CONFIG_DISPLAY_UART -> ti_drivers_Power
+    CONFIG_DISPLAY_UART -> ti_drivers_Board
+    CONFIG_DISPLAY_UART -> CONFIG_PIN_UART_TX
+    CONFIG_DISPLAY_UART -> CONFIG_PIN_UART_RX
+
+    // mod.$name=/ti/drivers/Watchdog
+    CONFIG_WATCHDOG0 -> ti_drivers_Power
+    CONFIG_WATCHDOG0 -> ti_drivers_Board
+
+    // mod.$name=/ti/drivers/apps/Button
+    CONFIG_BTN_LEFT -> ti_drivers_Board
+    CONFIG_BTN_RIGHT -> ti_drivers_Board
+    CONFIG_BTN_LEFT -> CONFIG_GPIO_BTN1
+    CONFIG_BTN_RIGHT -> CONFIG_GPIO_BTN2
+
+    // mod.$name=/ti/drivers/apps/LED
+    CONFIG_LED_RED -> ti_drivers_Board
+    CONFIG_LED_GREEN -> ti_drivers_Board
+    CONFIG_LED_RED -> CONFIG_GPIO_RLED
+    CONFIG_LED_GREEN -> CONFIG_GPIO_GLED
+
+    // mod.$name=/ti/drivers/nvs/NVSCC26XX
+
+    // mod.$name=/ti/thread/network/thread_network
+
+    // mod.$name=/ti/thread/pm/thread_pm
+
+    // mod.$name=/ti/thread/rf/thread_rf
+    ti_thread_rf_thread_rf0 -> ti_devices_radioconfig_settings_ieee_15_40
+
+    // mod.$name=/ti/thread/security/thread_security
+
+    // mod.$name=/ti/thread/thread
+    ti_thread_thread -> ti_common_multi_stack_validate
+    ti_thread_thread -> ti_drivers_RF
+    ti_thread_thread -> ti_devices_radioconfig_rfdesign
+    ti_thread_thread -> ti_thread_pm_thread_pm0
+    ti_thread_thread -> ti_thread_rf_thread_rf0
+    ti_thread_thread -> ti_thread_network_thread_network0
+    ti_thread_thread -> ti_thread_security_thread_security0
+
+    // mod.$name=/ti/utils/JSON
+    ti_utils_JSON -> ti_utils_runtime_GetLibs
+
+    // mod.$name=/ti/utils/build/GenLibs
+
+    // mod.$name=/ti/utils/runtime/GetLibs
+    ti_utils_runtime_GetLibs -> ti_utils_build_GenLibs
+}

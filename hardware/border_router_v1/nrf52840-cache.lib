@@ -1,0 +1,465 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x13_Female
+#
+DEF Connector_Conn_01x13_Female J 0 40 Y N 1 F N
+F0 "J" 0 700 50 H V C CNN
+F1 "Connector_Conn_01x13_Female" 0 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -600 20 901 -901 1 1 6 N 0 -580 0 -620
+A 0 -500 20 901 -901 1 1 6 N 0 -480 0 -520
+A 0 -400 20 901 -901 1 1 6 N 0 -380 0 -420
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+A 0 300 20 901 -901 1 1 6 N 0 320 0 280
+A 0 400 20 901 -901 1 1 6 N 0 420 0 380
+A 0 500 20 901 -901 1 1 6 N 0 520 0 480
+A 0 600 20 901 -901 1 1 6 N 0 620 0 580
+P 2 1 1 6 -50 -600 -20 -600 N
+P 2 1 1 6 -50 -500 -20 -500 N
+P 2 1 1 6 -50 -400 -20 -400 N
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+P 2 1 1 6 -50 300 -20 300 N
+P 2 1 1 6 -50 400 -20 400 N
+P 2 1 1 6 -50 500 -20 500 N
+P 2 1 1 6 -50 600 -20 600 N
+X Pin_1 1 -200 600 150 R 50 50 1 1 P
+X Pin_10 10 -200 -300 150 R 50 50 1 1 P
+X Pin_11 11 -200 -400 150 R 50 50 1 1 P
+X Pin_12 12 -200 -500 150 R 50 50 1 1 P
+X Pin_13 13 -200 -600 150 R 50 50 1 1 P
+X Pin_2 2 -200 500 150 R 50 50 1 1 P
+X Pin_3 3 -200 400 150 R 50 50 1 1 P
+X Pin_4 4 -200 300 150 R 50 50 1 1 P
+X Pin_5 5 -200 200 150 R 50 50 1 1 P
+X Pin_6 6 -200 100 150 R 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 -200 -100 150 R 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x05_Odd_Even
+#
+DEF Connector_Generic_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x13_Odd_Even
+#
+DEF Connector_Generic_Conn_02x13_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 700 50 H V C CNN
+F1 "Connector_Generic_Conn_02x13_Odd_Even" 50 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 650 150 -650 1 1 10 f
+S 150 -595 100 -605 1 1 6 N
+S 150 -495 100 -505 1 1 6 N
+S 150 -395 100 -405 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+S 150 405 100 395 1 1 6 N
+S 150 505 100 495 1 1 6 N
+S 150 605 100 595 1 1 6 N
+X Pin_1 1 -200 600 150 R 50 50 1 1 P
+X Pin_10 10 300 200 150 L 50 50 1 1 P
+X Pin_11 11 -200 100 150 R 50 50 1 1 P
+X Pin_12 12 300 100 150 L 50 50 1 1 P
+X Pin_13 13 -200 0 150 R 50 50 1 1 P
+X Pin_14 14 300 0 150 L 50 50 1 1 P
+X Pin_15 15 -200 -100 150 R 50 50 1 1 P
+X Pin_16 16 300 -100 150 L 50 50 1 1 P
+X Pin_17 17 -200 -200 150 R 50 50 1 1 P
+X Pin_18 18 300 -200 150 L 50 50 1 1 P
+X Pin_19 19 -200 -300 150 R 50 50 1 1 P
+X Pin_2 2 300 600 150 L 50 50 1 1 P
+X Pin_20 20 300 -300 150 L 50 50 1 1 P
+X Pin_21 21 -200 -400 150 R 50 50 1 1 P
+X Pin_22 22 300 -400 150 L 50 50 1 1 P
+X Pin_23 23 -200 -500 150 R 50 50 1 1 P
+X Pin_24 24 300 -500 150 L 50 50 1 1 P
+X Pin_25 25 -200 -600 150 R 50 50 1 1 P
+X Pin_26 26 300 -600 150 L 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 300 500 150 L 50 50 1 1 P
+X Pin_5 5 -200 400 150 R 50 50 1 1 P
+X Pin_6 6 300 400 150 L 50 50 1 1 P
+X Pin_7 7 -200 300 150 R 50 50 1 1 P
+X Pin_8 8 300 300 150 L 50 50 1 1 P
+X Pin_9 9 -200 200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# daughter_board_BLM18HE152SN1D
+#
+DEF daughter_board_BLM18HE152SN1D FB 0 40 Y Y 1 L N
+F0 "FB" 0 200 50 H V L CNN
+F1 "daughter_board_BLM18HE152SN1D" 0 300 50 H V L CNN
+F2 "Murata-BLM18-0.15-t0.8-0-0-*" 0 400 50 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18HE152SN1%23" 0 500 50 H I L CNN
+F4 "500mA" 0 600 50 H I L CNN "RMS current"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "FBead" 0 900 50 H I L CNN "category"
+F7 "Passive Components" 0 1000 50 H I L CNN "device class L1"
+F8 "EMI / RFI Components" 0 1100 50 H I L CNN "device class L2"
+F9 "Ferrite Beads and Chips" 0 1200 50 H I L CNN "device class L3"
+F10 "0.95mm" 0 1300 50 H I L CNN "height"
+F11 "1500Ω @ 100MHz" 0 1400 50 H I L CNN "impedance at frequency"
+F12 "CAPC16080X80" 0 1500 50 H I L CNN "ipc land pattern name"
+F13 "Yes" 0 1600 50 H I L CNN "lead free"
+F14 "79fe80c99abd3e2a" 0 1700 50 H I L CNN "library id"
+F15 "Murata" 0 1800 50 H I L CNN "manufacturer"
+F16 "0603" 0 1900 50 H I L CNN "package"
+F17 "Yes" 0 2000 50 H I L CNN "rohs"
+F18 "0.5Ω" 0 2100 50 H I L CNN "series resistance"
+F19 "+125℃" 0 2200 50 H I L CNN "temperature range high"
+F20 "-55°C" 0 2300 50 H I L CNN "temperature range low"
+F21 "100MHz" 0 2400 50 H I L CNN "test frequency"
+F22 "25%" 0 2500 50 H I L CNN "tolerance"
+DRAW
+P 2 1 1 0 170 -30 280 80 N
+P 2 1 1 0 220 -80 170 -30 N
+P 2 1 1 0 220 -80 330 30 N
+P 2 1 1 0 280 80 330 30 N
+X 1 1 100 0 100 R 40 0 1 1 P
+X 2 2 400 0 100 L 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# daughter_board_EVQ-P7A01P-switch2
+#
+DEF daughter_board_EVQ-P7A01P-switch2 SW 0 40 Y Y 1 L N
+F0 "SW" 0 0 50 H V L CNN
+F1 "daughter_board_EVQ-P7A01P-switch2" 0 100 50 H V L CNN
+F2 "Panasonic-EVQ-P7A01P-0-0-*" 0 200 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C378.pdf" 0 300 50 H I L CNN
+F4 "No" 0 400 50 H I L CNN "automotive"
+F5 "Switch" 0 500 50 H I L CNN "category"
+F6 "50mA" 0 600 50 H I L CNN "contact current rating"
+F7 "500mΩ" 0 700 50 H I L CNN "contact resistance"
+F8 "Electromechanical" 0 800 50 H I L CNN "device class L1"
+F9 "Switches" 0 900 50 H I L CNN "device class L2"
+F10 "Tactile Switches" 0 1000 50 H I L CNN "device class L3"
+F11 "SWITCH TACTILE SPST-NO 0.05A 12V" 0 1100 50 H I L CNN "digikey description"
+F12 "P16763CT-ND" 0 1200 50 H I L CNN "digikey part number"
+F13 "100000Cycles" 0 1300 50 H I L CNN "electromechanical life"
+F14 "1.55mm" 0 1400 50 H I L CNN "height"
+F15 "Yes" 0 1500 50 H I L CNN "lead free"
+F16 "2f293019bba4f771" 0 1600 50 H I L CNN "library id"
+F17 "Panasonic" 0 1700 50 H I L CNN "manufacturer"
+F18 "Surface Mount" 0 1800 50 H I L CNN "mount"
+F19 "SWITCH TACTILE SPST-NO 0.05A 12V" 0 1900 50 H I L CNN "mouser description"
+F20 "667-EVQP7A01P" 0 2000 50 H I L CNN "mouser part number"
+F21 "2.2N" 0 2100 50 H I L CNN "operating force"
+F22 "SMT_SW_3MM5_2MM9" 0 2200 50 H I L CNN "package"
+F23 "Yes" 0 2300 50 H I L CNN "rohs"
+F24 "+70°C" 0 2400 50 H I L CNN "temperature range high"
+F25 "-20°C" 0 2500 50 H I L CNN "temperature range low"
+F26 "SPST-NO" 0 2600 50 H I L CNN "throw configuration"
+F27 "12V" 0 2700 50 H I L CNN "voltage rating DC"
+DRAW
+C 130 -200 20 1 1 0 N
+C 270 -200 20 1 1 0 N
+P 2 1 1 0 0 -200 100 -200 N
+P 2 1 1 0 150 -190 250 -130 N
+P 2 1 1 0 400 -200 300 -200 N
+X 1 1 400 -300 200 U 40 0 1 1 P
+X 1' 1' 400 -100 200 D 40 0 1 1 P
+X 2 2 0 -300 200 U 40 0 1 1 P
+X 2' 2' 0 -100 200 D 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# daughter_board_MS88SF2_nRF52840
+#
+DEF daughter_board_MS88SF2_nRF52840 U 0 40 Y Y 1 F N
+F0 "U" -500 950 50 H V C CNN
+F1 "daughter_board_MS88SF2_nRF52840" 200 900 50 H V C CNB
+F2 "" -500 950 50 H I C CNN
+F3 "" -500 950 50 H I C CNN
+DRAW
+S -500 950 -500 950 0 1 0 N
+S 600 -850 -550 850 0 1 0 f
+X GND 1 700 -600 100 L 50 50 1 1 B
+X P0.08 10 -650 -50 100 R 50 50 1 1 B
+X P1.09 11 -650 -150 100 R 50 50 1 1 B
+X P0.12 12 -650 -250 100 R 50 50 1 1 B
+X GND 13 700 -700 100 L 50 50 1 1 B
+X VDD 14 -650 -450 100 R 50 50 1 1 B
+X VDDH 15 -650 -550 100 R 50 50 1 1 B
+X D- 16 700 -450 100 L 50 50 1 1 B
+X D+ 17 700 -350 100 L 50 50 1 1 B
+X P0.13 18 700 -250 100 L 50 50 1 1 I
+X P0.15 19 700 -150 100 L 50 50 1 1 B
+X P1.13 2 -650 750 100 R 50 50 1 1 B
+X P0.18 20 700 -50 100 L 50 50 1 1 B
+X P0.20 21 700 50 100 L 50 50 1 1 B
+X P0.22 22 700 150 100 L 50 50 1 1 B
+X P0.24 23 700 250 100 L 50 50 1 1 B
+X P1.00 24 700 350 100 L 50 50 1 1 B
+X SWDIO 25 700 450 100 L 50 50 1 1 B
+X SWDCLK 26 700 550 100 L 50 50 1 1 B
+X P0.09 27 700 650 100 L 50 50 1 1 B
+X P0.10 28 700 750 100 L 50 50 1 1 B
+X P1.15 3 -650 650 100 R 50 50 1 1 B
+X P0.02 4 -650 550 100 R 50 50 1 1 B
+X P0.29 5 -650 450 100 R 50 50 1 1 B
+X P0.31 6 -650 350 100 R 50 50 1 1 B
+X P0.26 7 -650 250 100 R 50 50 1 1 B
+X P0.04 8 -650 150 100 R 50 50 1 1 B
+X P0.06 9 -650 50 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDDF
+#
+DEF power_VDDF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDDF" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDDF 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pspice_C
+#
+DEF pspice_C C 0 10 Y Y 1 F N
+F0 "C" 100 150 50 V V C CNN
+F1 "pspice_C" 100 -150 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS C
+DRAW
+P 2 0 1 0 -150 -50 150 -50 N
+P 2 0 1 0 -150 50 150 50 N
+X ~ 1 0 250 200 D 40 40 1 1 P
+X ~ 2 0 -250 200 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
