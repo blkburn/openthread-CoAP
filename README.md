@@ -1,4 +1,4 @@
-# Zigbee
+# openthread-CoAP
 
 This repository contains multiple projects relating to the OpenThread wireless protocol.
 
